@@ -1,3 +1,5 @@
+This repository is a prototype implementation of the framework, you need to compile YCSB, test the target database system to collect and preprocess data, then use the notebook to build and evaluate models.
+
 Compile the corresponding system modules in ycsb
 
 `mvn clean package -pl [redis, cassandra, hbase] -am`
