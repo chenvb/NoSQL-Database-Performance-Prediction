@@ -41,7 +41,7 @@ operationcount: Defines the number of operations to execute during the replay pr
 **process.cpp** is a program used to calculate space reuse distance.
 Before using the program, you need to compile the code. Run the following command to compile:
 
-`g++ -O3 -o process process.cpp'
+`g++ -O3 -o process process.cpp`
 
 run the program with the following command to calculate space reuse distance:
 
