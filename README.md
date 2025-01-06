@@ -17,10 +17,12 @@ When running YCSB tests, you can use the following command as an example (for Ca
 -p labeldir=$label > cassandra.log
 ```
 
-workloadfile: Represents the file generated during the training data selection phase, containing various YCSB workload parameter combinations.
-recorddir: Indicates the directory where the trace details of the workload are collected.
-labeldir: Represents the directory where the test results of a specific set of YCSB parameters are stored.
-Log Output: The runtime logs are saved in the cassandra.log file.
+**workloadfile**: Represents the file generated during the training data selection phase, containing various YCSB workload parameter combinations.
+
+**recorddir**: Indicates the directory where the trace details of the workload are collected.
+
+**labeldir**: Represents the directory where the test results of a specific set of YCSB parameters are stored.
+
 
 If you need to replay real data using YCSB, you can use the following command:
 
@@ -33,9 +35,8 @@ If you need to replay real data using YCSB, you can use the following command:
 -p labeldir=$label > replay.log
 ```
 
--replay -rP: Specifies the path and name of the trace data file to be replayed.
-runtracename: The specific trace file name to be replayed, located under /benchmark/trace/.
-operationcount: Defines the number of operations to execute during the replay process.
+**-replay -rP runtracename**: Specifies the path and name of the trace data file to be replayed.
+**operationcount**: Defines the number of operations to execute during the replay process.
 
 
 **process.cpp** is a program used to calculate space reuse distance.
