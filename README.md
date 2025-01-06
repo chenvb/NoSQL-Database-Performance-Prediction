@@ -1,4 +1,4 @@
-compile the corresponding test system modules
+Compile the corresponding system modules in ycsb
 
 `mvn clean package -pl [redis, cassandra, hbase] -am`
 
